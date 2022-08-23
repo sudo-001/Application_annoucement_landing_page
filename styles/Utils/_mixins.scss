@@ -1,0 +1,5 @@
+@mixin mobile-devices {
+    @media screen and (max-width: map-get($mobiles-displays , mobile)) {
+        @content;
+    }
+}

@@ -1,0 +1,10 @@
+button {
+    border-radius: 15.77px;
+    background-color: map-get($colors, primary);
+    color: #fff;
+    padding: 15px 40px;
+    border: map-get($colors, primary);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

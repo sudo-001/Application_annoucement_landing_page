@@ -1,0 +1,75 @@
+.Contact {
+    padding: 10vh 0;
+    // border: solid green;
+    height: 100vh;
+    color: white;
+    position: relative;
+
+    & .content {
+        background-color: map-get($colors, primary);
+        border-radius: 20px;
+        // border: solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: space-around;
+        height: 100%;
+        position: relative;
+        box-shadow: 0px 30px 10px map-get($colors, thirt);
+
+        & .head {
+            // border: solid red;
+            margin-top: 80px;
+            > h1 {
+                font-size: 64px;
+                font-weight: bold;
+            }
+    
+            > p {
+                font-size: 19px;
+                text-align: center;
+                // border: solid red;
+                width: 100%;
+            }
+        }
+
+        .buttonsContainer {
+            margin-top: 5vh;
+        }
+
+        > .photo {
+            // border: solid red;
+            height: 60%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        > .logoLeft {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        > .logoRight {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        > .lineLeft {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            // border: solid red;
+            height: 75%;
+        }
+
+        > .lineRight {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            // border: solid red;
+            height: 75%;
+        }
+    }
+}

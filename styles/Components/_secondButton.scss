@@ -1,0 +1,38 @@
+.buttonsContainer {
+    // border: solid red;
+    // width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+
+
+    .button {
+        background-color: map-get($colors, secondary);
+        display: flex;
+        border-radius: 20px;
+        // border: solid red;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        >div {
+            // border: solid green;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+
+            >span:nth-child(1) {
+                color: grey;
+            }
+
+            >span:nth-child(2) {
+                font-weight: bold;
+                font-size: 24px;
+                color: #fff;
+            }
+        }
+    }
+
+    >.button:nth-child(2) {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-3dlight-color: aqua;
+}
+
+body {
+    padding: 20px 5%;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}

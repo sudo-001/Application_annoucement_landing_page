@@ -1,0 +1,11 @@
+{
+  "name": "inte_21-08-2022",
+  "version": "1.0.0",
+  "description": "An integration of a figma landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/main.scss:./styles/index.css --style compressed"
+  },
+  "author": "ATEZONG YMELE CARICK APPOLINAIRE",
+  "license": "ISC"
+}

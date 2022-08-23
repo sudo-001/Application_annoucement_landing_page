@@ -1,0 +1,88 @@
+.FAQs {
+    // border: solid red;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    height: 90vh;
+
+    h1 {
+        font-weight: bold;
+        font-size: 64px;
+
+        span {
+            color: map-get($colors, primary);
+        }
+    }
+
+    .content {
+        // border: solid green;
+        display: inherit;
+        flex-direction: row;
+        height: 100%;
+
+        .left {
+            width: 50%;
+            height: 100%;
+            // border: solid yellow;
+            padding: 5px 0px 0 0 0;
+
+            >.card-description {
+                margin: 10% 0 20% 0;
+                & .head {
+                    display: flex;
+                    align-items: center;
+
+                    & .circle {
+                        border: solid map-get($colors, primary) 4px;
+                        // padding: 5px;
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        margin: 0px 10px;
+                    }
+                }
+
+                & .text {
+                    // border: solid red;
+                    font-size: 24px;
+                    color: grey;
+                    font-weight: medium;
+                    padding-left: 10px;
+                    width: 75%;
+                    margin: 20px 0px;
+
+
+                    span {
+                        color: map-get($colors, primary);
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 50%;
+            height: 100%;
+            // border: solid red;
+            position: relative;
+
+            img {
+                position: absolute;
+                
+            }
+
+            & img:nth-child(1) {
+                z-index: 10;
+                height: 100%;
+                // border: solid red;
+                bottom: 0;
+
+            }
+
+            & img:nth-child(2) {
+                z-index: 5px;
+                right: 0;
+            }
+        }
+    }
+}

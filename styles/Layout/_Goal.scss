@@ -1,0 +1,23 @@
+.Goal-wrapper {
+    // border: solid red;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15vh;
+
+    > h2 {
+        font-size: 64px;
+        span {
+            color: map-get($colors, primary);
+        }
+    }
+
+    > p {
+        font-size: 36px;
+        width: 70%;
+        // border: solid red;
+        text-align: center;
+    }
+}
